@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+# fully debugging
+# set -x 
 set -Eeuo pipefail
 trap cleanup SIGINT SIGTERM ERR
 
